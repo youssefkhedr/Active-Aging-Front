@@ -1,0 +1,17 @@
+{
+    "roms": [],
+    "balances": [],
+    "sarcfs": [],
+    "five_tsts": [],
+    "cognitive_mmses": [],
+    "cognitive_mini_cogs": [],
+    "users": [
+        {
+            "id": "user-1",
+            "email": "patient@example.com",
+            "fullName": "Test Patient",
+            "role": "PATIENT"
+        }
+    ],
+    "training_plans": []
+}

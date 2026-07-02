@@ -1,0 +1,13 @@
+{
+    "/assessment/rom": "/roms",
+    "/assessment/rom/history": "/roms",
+    "/assessment/balance": "/balances",
+    "/assessment/balance/history": "/balances",
+    "/assessment/sarcopenia/sarc-f": "/sarcfs",
+    "/assessment/sarcopenia/sarc-f/history": "/sarcfs",
+    "/assessment/sarcopenia/5tsts": "/five_tsts",
+    "/assessment/sarcopenia/5tsts/history": "/five_tsts",
+    "/assessment/cognitive/mmse": "/cognitive_mmses",
+    "/assessment/cognitive/mini-cog": "/cognitive_mini_cogs",
+    "/training/plans": "/training_plans"
+}
