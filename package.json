@@ -2,6 +2,7 @@
       "name": "ActiveAging Lab",
       "version": "0.1.0",
       "private": true,
+      "type": "module",
       "dependencies": {
             "@clerk/clerk-react": "^5.59.5",
             "@mediapipe/tasks-vision": "^0.10.32",
@@ -56,15 +57,19 @@
             "vaul": "^1.1.2"
       },
       "devDependencies": {
+            "@cloudflare/vite-plugin": "^1.43.0",
             "@types/node": "^20.10.0",
             "@types/react": "^19.2.7",
             "@types/react-dom": "^19.2.3",
             "@vitejs/plugin-react-swc": "^3.10.2",
-            "vite": "6.3.5"
+            "vite": "6.3.5",
+            "wrangler": "^4.107.0"
       },
       "scripts": {
             "dev": "vite",
             "build": "vite build",
+            "deploy": "npm run build && wrangler deploy",
+            "preview": "npm run build && wrangler dev",
             "server": "json-server --watch db.json --port 3001 --routes routes.json"
       }
 }
